@@ -1,0 +1,16 @@
+{
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "python.envFile": "${workspaceFolder}/.env",
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.indentSize": "tabSize",
+    "editor.formatOnSave": false,
+    "editor.formatOnType": true,
+    "black-formatter.args": ["line-length=79"],
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always",
+    },
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter"
+    }
+  }
