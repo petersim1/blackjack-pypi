@@ -1,6 +1,6 @@
 from random import choice
 
-from blackjack_pypi import Game
+from blackjack_multi import Game
 
 game = Game()
 
